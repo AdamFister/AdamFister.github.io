@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(63, 15, 153);
-    font-family: 'Krub', sans-serif;
+    background-color: rgb(130, 68, 245);
+    font-family: 'Shadows Into Light', cursive;
   }
   h1, h2 {
-    font-family: 'Arimo', sans-serif;
+    color: rgb(49, 151, 247);
+    font-family: 'Source Code Pro', monospace;
   }
   img {
     margin-left: auto;
