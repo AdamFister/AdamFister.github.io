@@ -1,6 +1,6 @@
 body {
     background-color: rgb(130, 68, 245);
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Bangers', cursive;
   }
   h1, h2 {
     color: rgb(49, 151, 247);
@@ -11,4 +11,7 @@ body {
     margin-right: auto;
     width: 12em;
     display: block;
+  }
+  li {
+    color: rgb(247, 161, 49);  
   }
