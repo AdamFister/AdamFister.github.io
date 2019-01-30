@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(130, 68, 245);
+    background-color: rgb(49, 151, 247);
     font-family: 'Bangers', cursive;
+    font-size: 1.5em;
   }
   h1, h2 {
-    color: rgb(49, 151, 247);
     font-family: 'Source Code Pro', monospace;
   }
   img {
@@ -13,5 +13,5 @@ body {
     display: block;
   }
   li {
-    color: rgb(247, 161, 49);  
+    color: rgb(245, 118, 0);  
   }
