@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
+<!-- saved from url=(0031)http://127.0.0.1:5500/blog.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adam Fister</title>
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Source+Code+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/styles.css">
-</head>
+  
+  
+  <script src="./Adam Fister_files/jquery.min.js"></script>
+  <script src="./Adam Fister_files/popper.min.js"></script>
+  <script src="./Adam Fister_files/bootstrap.min.js"></script>
+  
+<link href="./Adam Fister_files/css" rel="stylesheet"><link rel="stylesheet" href="./Adam Fister_files/bootstrap.min.css"><link rel="stylesheet" href="./Adam Fister_files/styles.css"></head>
 
 <body>
   <nav class="navbar navbar-expand-sm bg-info navbar-dark">
@@ -31,7 +30,7 @@
         <a class="nav-link" href="https://www.linkedin.com/in/adam-fister-050728129/">LinkedIn</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/blog.html">Blog</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/blog.html">Blog</a>
       </li>
     </ul>
 
@@ -47,7 +46,7 @@
           
           <h2>Week One</h2>
           <h5>First Week of Awesome Inc Bootcamp, Feb 25 - Mar 1, 2019</h5>
-          <img src="/naturefractal.jpg" class="img-fluid w-50" alt="naturefractal" vspace="25">
+          <img src="./Adam Fister_files/naturefractal.jpg" class="img-fluid w-50" alt="Adam Fister" vspace="25">
           
           <p>My first week of coding bootcamp went well. The combination of various emotions has resulted a net positive and I am excited to continue my educational journey. 
             As expected, the small class setting has undoubtedly saved countless hours of frustration as I can ask a neighbor or instructor for guidance when I get stuck
@@ -74,7 +73,7 @@
       <div class="rightcolumn">
         <div class="card">
           <h2>About Me</h2>
-          <img src="/AdamFister.jpeg" class="rounded-circle img-fluid w-100" alt="Adam Fister" vspace="25">
+          <img src="./Adam Fister_files/AdamFister.jpeg" class="rounded-circle img-fluid w-100" alt="Adam Fister" vspace="25">
           <p>My name is Adam Fister. I was born in Lexington, KY on October 23, 1981. I am a music-lover and a musician.
             I love to sing and play piano, guitar, bass, and whatever else I can get my hands on.</p>
         </div>
@@ -94,6 +93,42 @@
       <h2>Footer</h2>
     </div> -->
 
-  </body>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+</body></html>
