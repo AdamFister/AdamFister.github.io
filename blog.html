@@ -13,28 +13,45 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-info">
+    <a class="navbar-brand" href="#top"><img src="images/naturefractal.jpeg" alt="naturefractal"
+        style="width:35px;"></a>
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <!-- Links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="https://adamfister.github.io/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/AdamFister">GitHub</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://stackoverflow.com/users/10981144/adam-fister">StackOverflow</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/adam-fister-050728129/">LinkedIn</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/blog.html">Blog</a>
-      </li>
-    </ul>
-
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://adamfister.github.io/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/AdamFister">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://stackoverflow.com/users/10981144/adam-fister">StackOverflow</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/adam-fister-050728129/">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog.html">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Week
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#WeekOne">One</a>
+            <a class="dropdown-item" href="#WeekTwo">Two</a>
+            <a class="dropdown-item" href="#WeekThree">Three</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </nav>
 
 
@@ -44,37 +61,41 @@
   <div class="row">
     <div class="leftcolumn">
       <div class="card">
+        <section id="WeekOne">
+          <h2>Week One</h2>
+          <h5>First Week of Awesome Inc Bootcamp</h5>
+          <h5>February 25 - March 1, 2019</h5>
+          <br>
+          <img src="images/naturefractal.jpg" class="img-fluid w-50" alt="naturefractal">
+          <br>
 
-        <h2>Week One</h2>
-        <h5>First Week of Awesome Inc Bootcamp</h5>
-        <h5>February 25 - March 1, 2019</h5>
-        <br>
-        <img src="images/naturefractal.jpg" class="img-fluid w-50" alt="naturefractal">
-        <br>
+          <p>My first week of coding bootcamp went well. The combination of various emotions has resulted in a net
+            positive
+            and I am excited to continue my educational journey.
+            As expected, the small class setting has undoubtedly saved countless hours of frustration as I can ask a
+            neighbor or instructor for guidance when I get stuck
+            instead of Googling for hours to fix a bug that should have taken minutes. The atmosphere is conducive to
+            learning and everyone has been helpful and encouraging.
+          </p>
+          <p>One cool thing I learned this week about coding is the importance of the .map, .filter, and .reduce
+            functions
+            in JavaScript. I was previously aware of them but I am led to believe they are much more powerful and
+            efficient than I had previously imagined.
+          </p>
+          <p>One thing I would like to get better at this week is truly understanding every line of code I write as I
+            write it. This past week I hurriedly threw many snippets of code into my project without fully understanding
+            their functionality. In the future I would like to take my time and understand the interconnectivity of
+            every
+            line of code in my project in order to mitigate issues like unintentional overwriting and unexpected
+            behavior.
+          </p>
+          <p>One resource that I think would help everyone else in Bootcamp is <a
+              href="https://www.freecodecamp.org">https://www.freecodecamp.org</a></p>
+          <p>The number one thing that held me back this week is not enough Oreos and coffee.</p>
 
-        <p>My first week of coding bootcamp went well. The combination of various emotions has resulted in a net
-          positive
-          and I am excited to continue my educational journey.
-          As expected, the small class setting has undoubtedly saved countless hours of frustration as I can ask a
-          neighbor or instructor for guidance when I get stuck
-          instead of Googling for hours to fix a bug that should have taken minutes. The atmosphere is conducive to
-          learning and everyone has been helpful and encouraging.
-        </p>
-        <p>One cool thing I learned this week about coding is the importance of the .map, .filter, and .reduce functions
-          in JavaScript. I was previously aware of them but I am led to believe they are much more powerful and
-          efficient than I had previously imagined.
-        </p>
-        <p>One thing I would like to get better at this week is truly understanding every line of code I write as I
-          write it. This past week I hurriedly threw many snippets of code into my project without fully understanding
-          their functionality. In the future I would like to take my time and understand the interconnectivity of every
-          line of code in my project in order to mitigate issues like unintentional overwriting and unexpected behavior.
-        </p>
-        <p>One resource that I think would help everyone else in Bootcamp is <a href="https://www.freecodecamp.org">https://www.freecodecamp.org</a></p>
-        <p>The number one thing that held me back this week is not enough Oreos and coffee.</p>
-
-        <p>I have an "Aha!" moment almost every day during JavaScript warmup. I like extending my limits and it's fun
-          learning about different approaches to the same problem.</p>
-
+          <p>I have an "Aha!" moment almost every day during JavaScript warmup. I like extending my limits and it's fun
+            learning about different approaches to the same problem.</p>
+        </section>
       </div>
       <!-- <div class="card">
           <h2>TITLE HEADING</h2>
@@ -112,9 +133,9 @@
   <!-- <div class="footer">
       <h2>Footer</h2>
     </div> -->
-    <br>
-    <a href="#" class="btn btn-primary" role="button">Back to Top</a>
-    <br>
+  <br>
+  <a href="#" class="btn btn-primary" role="button">Back to Top</a>
+  <br>
 </body>
 
 </html>

@@ -22,9 +22,20 @@ body {
   .navbar.navbar-expand-sm.bg-info.navbar-dark li a {
     color: rgb(190, 34, 6);
   }
-  .navbar.navbar-expand-sm.bg-info.navbar-dark li a:hover {
+ 
+  .navbar.fixed-top.navbar-expand-sm.navbar-light.bg-info li a:hover{
     color: rgb(255, 255, 255);
+    background-color: #139bbd;
   }
+
+  .navbar.navbar-expand-sm.bg-info.navbar-dark li a:hover {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .navbar.fixed-top.navbar-expand-sm.navbar-light.bg-info li a {
+    color: rgb(190, 34, 6);
+  }
+  
   .largephoto {
       display: block;
       position: relative;
@@ -103,3 +114,10 @@ body {
     }
   }
 
+  ul.navbar-nav a:hover { 
+    color: rgb(255, 255, 255); 
+  }
+
+  .navbar-nav > li > .dropdown-menu { 
+    background-color: #139bbd; 
+  }
