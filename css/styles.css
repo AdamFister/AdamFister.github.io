@@ -122,6 +122,10 @@ body {
     background-color: #139bbd; 
   }
 
+  .navbar-nav > li > .dropdown-menu > a.dropdown-item.active { 
+    background-color: white; 
+  }
+
   .toppadding {
     padding-top: 35px;
   }
