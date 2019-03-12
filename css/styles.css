@@ -97,6 +97,12 @@ body {
      padding: 20px;
      margin-top: 10px;
   }
+
+  .container {
+    background-color:rgb(238, 158, 11);
+    padding: 20px;
+    margin-top: 10px;
+ }
   
   /* Clear floats after the columns */
   .row:after {
