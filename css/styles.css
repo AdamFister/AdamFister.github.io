@@ -1,34 +1,49 @@
+.row {
+  border: 1px solid red;
+}
+
+.col {
+  border: 1px solid blue;
+}
+
 body {
-    background-color: rgb(238, 158, 11);
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    color: rgb(190, 34, 6);
+    color: rgb(0, 0, 0);
     padding: 2rem;
   }
 
-  h1, h2, h3, h4 {
+  h1, h3, h4 {
     font-family: 'Bitter', serif;
-    color: #139bbd ;
+    color: #4613bd ;
+  }
+
+  h2 {
+    font-family: 'Bitter', serif;
+    color: #4613bd ;
+    background-color: lightgreen;
   }
 
   a {
     color: black;
+
   }
 
   a:hover {
-    color: white;
+    color: green;
   }
 
   img {
     
     margin-right: auto;
     display: block;
-    width: 25%;
-  }
-
-  .img-center {
+    width: 50%;
     margin-left: auto;
   }
+
+
+
 
   li {
     color: rgb(255, 255, 255);  
@@ -36,7 +51,7 @@ body {
  
   .navbar.fixed-top.navbar-expand-sm.navbar-light li a:hover{
     color: rgb(255, 255, 255);
-    background-color: #139bbd;
+    background-color: #4613bd;
   }
 
   .navbar.navbar-expand-sm.bg-info.navbar-dark li a:hover {
@@ -52,7 +67,7 @@ body {
       position: relative;
       width: 50%;
       border:none;
-      padding: 2rem;  
+
   }
 
   * {
@@ -63,7 +78,7 @@ body {
   body {
     font-family: Arial;
     padding: 20px;
-    background: #f1f1f1;
+    background: #ffffff;
   }
   
   /* Header/Blog Title */
@@ -88,22 +103,12 @@ body {
     padding-left: 10px;
   }
   
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
   
   /* Add a card effect for articles */
-  .card {
-     background-color:rgb(238, 158, 11);
-     padding: 20px;
-     margin-top: 10px;
-  }
+
 
   .container {
-    background-color:rgb(238, 158, 11);
+    background-color: rgb(241, 241, 241);
     padding: 20px;
     margin-top: 10px;
  }
@@ -119,7 +124,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(241, 241, 241);
     margin-top: 20px;
     font-size: 300%;
   }
@@ -137,11 +142,11 @@ body {
   }
 
   .navbar-nav > li > .dropdown-menu { 
-    background-color: #139bbd; 
+    background-color: white; 
   }
 
   .navbar-nav > li > .dropdown-menu > a.dropdown-item.active { 
-    background-color: white; 
+    background-color: #4613bd; 
   }
 
   .toppadding {
@@ -149,9 +154,11 @@ body {
   }
 
   .center {
-    text-align: center;
+    text-align: center !important;
   }
 
   .button {
     position: relative;
   }
+
+

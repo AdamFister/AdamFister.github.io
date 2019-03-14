@@ -13,11 +13,13 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-info">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-success">
     <a class="navbar-brand" href="#top"><img src="/images/naturefractal.jpeg" alt="naturefractal"
         style="width:35px;"></a>
 
@@ -59,14 +61,18 @@
 
 
 
-  <div class="container toppadding">
+  <div class="container-fluid toppadding">
 
-    <h2 class="center">Full Stack Web Developer</h2>
+    <h2 class="center toppadding">Full Stack Web Developer</h2>
     <br>
-    <img src="/images/AdamFister.jpeg" class="rounded-circle img-fluid w-10 img-center" align-content="center"
-      alt="Adam Fister">
+    <div class="row">
+    
+
+    
     <br>
-    <h3>Bio</h3>
+    
+        <div class="col">
+    <h3 class="center">Bio</h3>
     <p>My name is Adam Fister. I was born in Lexington, KY on October 23, 1981. I graduated from the University of
       Kentucky in 2006 with a Bachelor of the Arts degree in Theatre. I am proud and excited to be a member of Awesome
       Inc Bootcamp's Spring 2019 cohort.</p>
@@ -75,31 +81,40 @@
       linked with technology itself.</p>
     <p>I, for one, welcome our new robot overlords.</p>
 
+  </div>
 
-    <h3>Music</h3>
+  <div class="col-sm-6">
+  <img src="/images/AdamFister.jpeg" class="rounded-circle img-fluid w-30 img-center" align-content="center"
+  alt="Adam Fister">
+</div>
+
+  <div class="col">
+    <h3 class="center">Music</h3>
     <p>I am a music-lover and a musician. Music is vocal or
       instrumental sounds (or both) combined in such a way as to produce beauty of form,
       harmony, and expression of emotion.
       I love to sing and play piano, guitar, bass, and whatever else I can get my hands on. </p>
 
     <p>My wife Chelsea and I play music together. You can check us out on Facebook
-      <a href="https://www.facebook.com/bellbottombend/" target="_blank">
-        here</a> or YouTube <a href="https://www.youtube.com/channel/UCnwJHwWnJognomiXNrZ16sQ" target="_blank">
-        here</a>.</p>
-
+      <a href="https://www.facebook.com/bellbottombend/" target="_blank"><i class="fas fa-music fa-2x"> </i></a>   or YouTube <a href="https://www.youtube.com/channel/UCnwJHwWnJognomiXNrZ16sQ" target="_blank">
+        <i class="fas fa-music fa-2x"> </i></a></p>
+      </div>
+      </div>
   </div>
+
+
   <div class="container">
-    <h1>Projects</h1>
+    <h1 class = "center">Projects</h1>
     <img src="/images/computer.jpg" class="img-fluid w-25" alt="computer">
     <br>
     <!-- <p>NOTE: Projects may take a moment to load into server memory.
       Please allow time for Heroku to fully load projects</p> -->
-    <p><a href="https://project1-campaign-website-arf.herokuapp.com/" target="_blank">
-      <h5>Picard for Constable</h5>
-    </a></p>
-    <p><a href="https://project2-restaurant-arf.herokuapp.com/" target="_blank">
-      <h5>The Burnt Tongue</h5>
-    </a></p>
+    <h5 class = "center"><a href="https://project1-campaign-website-arf.herokuapp.com/" target="_blank">
+        Picard for Constable</h5>
+      </a>
+    <h5 class = "center"><a href="https://project2-restaurant-arf.herokuapp.com/" target="_blank">
+        The Burnt Tongue</h5>
+      </a>
 
 
 
@@ -128,7 +143,9 @@
 
   </div>
   <br>
+  <div class="center">
   <a href="#" class="btn btn-primary" role="button">Back to Top</a>
+</div>
   <br>
 
   <script src="/js/main.js"></script>
