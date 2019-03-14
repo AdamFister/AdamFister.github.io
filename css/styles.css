@@ -7,8 +7,16 @@ body {
   }
 
   h1, h2, h3, h4 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Bitter', serif;
     color: #139bbd ;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: white;
   }
 
   img {
@@ -25,12 +33,8 @@ body {
   li {
     color: rgb(255, 255, 255);  
   }
-
-  .navbar.navbar-expand-sm.bg-info.navbar-dark li a {
-    color: rgb(190, 34, 6);
-  }
  
-  .navbar.fixed-top.navbar-expand-sm.navbar-light.bg-info li a:hover{
+  .navbar.fixed-top.navbar-expand-sm.navbar-light li a:hover{
     color: rgb(255, 255, 255);
     background-color: #139bbd;
   }
