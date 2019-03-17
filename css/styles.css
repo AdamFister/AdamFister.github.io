@@ -70,13 +70,6 @@ body {
     background-color: #4613bd;
   }
 
-  .navbar.navbar-expand-sm.bg-info.navbar-dark li a:hover {
-    color: rgb(255, 255, 255) !important;
-  }
-  
-  .navbar.fixed-top.navbar-expand-sm.navbar-light.bg-info li a {
-    color: rgb(190, 34, 6);
-  }
   
   .largephoto {
       display: block;
@@ -198,7 +191,7 @@ body {
 
   .allSides
 		{
-			border: solid 1px #555;
+
 			box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 			-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
 			-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
@@ -207,6 +200,14 @@ body {
      
   .leftpadding {
     padding-left: 10px;
+  }
+
+  i {
+    color: #4613bd ;
+  }
+
+  .navbar-brand i fas fa-peace a:hover {
+    color: rgb(255, 255, 255) !important;
   }
 
 
