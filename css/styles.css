@@ -133,8 +133,7 @@ body {
   .footer {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: space-between;
+    
     width: 95%;
     padding: 20px;
     text-align: center;
@@ -202,8 +201,16 @@ body {
     padding-left: 10px;
   }
 
-  i {
-    color: #4613bd ;
+  .fas {
+    color: #4613bd;
+  }
+
+  .fas.fa-music.fa-2x:hover {
+    color: orange;
+  }
+
+  .fas.fa-peace:hover {
+    color: white;
   }
 
   .navbar-brand i fas fa-peace a:hover {
