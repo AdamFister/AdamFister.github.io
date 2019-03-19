@@ -15,6 +15,7 @@ Vue.component('date', {
 })
 
 Vue.component('clock', {
+    template: `<h1>{{ getStandardTime }}</h1>`,
     data: function () {
         return { currentTime: new Date() }
     },
@@ -72,8 +73,7 @@ Vue.component('clock', {
                 return this.currentTime.getHours();
             }
         }
-    },
-    template: `<h1>{{ getStandardTime }}</h1>`
+    }
 })
 
 var app = new Vue({
