@@ -14,6 +14,68 @@ Vue.component('date', {
     template: `<h1>{{ formatDate }}</h1>`
 })
 
+Vue.component('clock', {
+    data: function () {
+        return { currentTime: new Date() }
+    },
+    methods: {
+        displayTime: function () {
+            var self = this;
+            if (!this.interval) {
+            this.interval = setInterval(() => {
+                self.currentTime = new Date();
+                self.time_str = self.getStandardTime;
+                }, 1000);
+            } else {
+                clearInterview(this.interval);
+                this.interval = 0;
+            }
+        }
+    },
+    created() {
+        this.displayTime();
+    },
+    computed: {
+        meridiem() {
+            if (this.currentTime.getHours() >= 12) {
+                return "PM";
+            }
+            else if (this.currentTime.getHours() >= 0 && this.currentTime.getHours() < 12) {
+                return "AM";
+
+            }
+
+        },
+        getStandardTime() {
+            return this.standardHours + ":" + this.mins + ":" + this.sec + " " + this.meridiem
+        },
+        mins() {
+            if (this.currentTime.getMinutes() < 10) {
+                return '0' + this.currentTime.getMinutes()
+            }
+            else return this.currentTime.getMinutes()
+        },
+        sec() {
+            if (this.currentTime.getSeconds() < 10) {
+                return '0' + this.currentTime.getSeconds()
+            }
+            else return this.currentTime.getSeconds()
+        },
+        standardHours() {
+            if (this.currentTime.getHours() > 12) {
+                return this.currentTime.getHours() - 12;
+            }
+            else if (this.currentTime.getHours() == 0) {
+                return 12;
+            }
+            else {
+                return this.currentTime.getHours();
+            }
+        }
+    },
+    template: `<h1>{{ getStandardTime }}</h1>`
+})
+
 var app = new Vue({
     el: '#app'
 })

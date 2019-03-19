@@ -17,6 +17,7 @@ body {
   h1, h4 {
     font-family: 'Bitter', serif;
     color: #4613bd ;
+    background-color: lightgreen;
   }
 
   h2, h3 {
@@ -26,12 +27,12 @@ body {
   }
 
   a {
-    color: black;
+    color: #4613bd;
 
   }
 
   a:hover {
-    color: green;
+    color: orange;
   }
 
   img {
