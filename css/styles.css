@@ -14,25 +14,30 @@ body {
     padding: 2rem;
   }
 
-  h1, h4 {
+  h1 {
     font-family: 'Bitter', serif;
     color: #4613bd ;
-    background-color: lightgreen;
+    background-color: lightskyblue;
   }
 
   h2, h3 {
     font-family: 'Bitter', serif;
     color: #4613bd ;
-    background-color: lightgreen;
+    background-color: lightskyblue;
+  }
+
+  h4 {
+    font-family: 'Bitter', serif;
+    color: lightskyblue ;
+    background-color: #4613bd;
   }
 
   a {
-    color: #4613bd;
-
+    color: lightskyblue;
   }
 
   a:hover {
-    color: orange;
+    color: white;
   }
 
   img {
@@ -70,7 +75,6 @@ body {
     color: rgb(255, 255, 255);
     background-color: #4613bd;
   }
-
   
   .largephoto {
       display: block;
@@ -142,7 +146,7 @@ body {
     margin-top: 20px;
     font-size: 350%;
     color: #4613bd ;
-    background-color: lightgreen;
+    background-color: lightskyblue;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -153,17 +157,21 @@ body {
     }
   }
 
-  ul.navbar-nav a:hover { 
-    color: rgb(255, 255, 255); 
-  }
 
   .navbar-nav > li > .dropdown-menu { 
-    background-color: white; 
+    background-color: lightskyblue; 
+    color: #4613bd;
   }
 
   .navbar-nav > li > .dropdown-menu > a.dropdown-item.active { 
-    background-color: #4613bd; 
+    color: white; 
   }
+
+  .navbar-nav > li > .dropdown-menu > a.dropdown-item { 
+    color: #4613bd; 
+  }
+
+
 
   .toppadding {
     padding-top: 35px;
@@ -191,7 +199,6 @@ body {
 
   .allSides
 		{
-
 			box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 			-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
 			-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
@@ -207,7 +214,7 @@ body {
   }
 
   .fas.fa-music.fa-2x:hover {
-    color: orange;
+    color: lightskyblue;
   }
 
   .fas.fa-peace:hover {
@@ -216,6 +223,11 @@ body {
 
   .navbar-brand i fas fa-peace a:hover {
     color: rgb(255, 255, 255) !important;
+  }
+
+  .navbar-toggler {
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid lightskyblue;
   }
 
 
