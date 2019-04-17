@@ -1,9 +1,11 @@
 /* .row {
   border: 1px solid red;
-}
+} */
 
-.col {
-  border: 1px solid blue;
+/* .col {
+  flex-basis: 1;
+  flex-grow: 1;
+  max-width: 100%;
 } */
 
 body {
@@ -24,12 +26,16 @@ body {
     font-family: 'Bitter', serif;
     color: #4613bd ;
     background-color: lightskyblue;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   h4 {
     font-family: 'Bitter', serif;
     color: lightskyblue ;
     background-color: #4613bd;
+    padding-bottom: 3px;
+    padding-top: 2px;
   }
 
   a {
