@@ -230,5 +230,10 @@ body {
     border: 1px solid lightskyblue;
   }
 
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
 
 
